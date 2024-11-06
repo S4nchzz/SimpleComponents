@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './App.css';
 
 const productos = [
     {Producto: 'manzana'},
@@ -33,8 +34,8 @@ function EncontrarProducto() {
         <div className="products">
             <form onSubmit={e => findItem(e)}>
                 Producto:
-                <input id="product" type="text"></input>
-                <button className="sendProduct" type="submit">Enviar producto</button>
+                <input className="fields" id="product" type="text"></input>
+                <button className="buttons" type="submit">Enviar producto</button>
             </form>
             <h5>{foundInfo}</h5>
         </div>

@@ -17,9 +17,9 @@ function GenerateFormulario() {
       <form onSubmit={e => sendData(e)}>
         <label>
           Name:
-          <input type="text" name="name"/>
+          <input className="fields" type="text" name="name"/>
         </label>
-        <button className="submitButton" type="submit">Submit</button>
+        <button className="buttons" type="submit">Submit</button>
       </form>
     </div>
   );

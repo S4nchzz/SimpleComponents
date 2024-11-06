@@ -4,7 +4,7 @@ function Visibilidad() {
     return (
         <div className="visibility">
             <p id="dissapear">Hola</p>
-            <button type="button" onClick={(e) => hide(document.getElementById("dissapear"))}>PULSAME</button>
+            <button className="buttons" type="button" onClick={(e) => hide(document.getElementById("dissapear"))}>PULSAME</button>
         </div>
     );
 }
