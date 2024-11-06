@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+.to-do {
+  text-align: center;
+}
+
+.todoInput {
+  margin-left: 20px;
+}

@@ -8,7 +8,13 @@ function IncrementButtons() {
         <div className="countButtons">
             <h1 id="count">Contador: {contador}</h1>
             <button onClick={() => setContador(contador + 1)}>Incrementar</button>
-            <button onClick={() => setContador(contador - 1)}>Decrementar</button>
+            <button onClick={() => {
+                contador > 0 ? (
+                    setContador(contador - 1)
+                ) : (
+                    setContador(contador)
+                )
+            }}>Decrementar</button>
         </div>
     )
 }

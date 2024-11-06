@@ -2,6 +2,8 @@ import './App.css';
 import IncrementButtons from './IncrementBtns';
 import GenerateFormulario from './Formulario';
 import Visibilidad from './Visibilidad';
+import Tareas from './ListaTareas';
+import EncontrarProducto from './ListaProductos';
 
 function App() {
   return (
@@ -10,6 +12,8 @@ function App() {
         <IncrementButtons/>
         <GenerateFormulario/>
         <Visibilidad/>
+        <Tareas/>
+        <EncontrarProducto producto="manzana"/>
       </header>
     </div>
   );
