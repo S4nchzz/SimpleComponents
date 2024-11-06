@@ -6,7 +6,7 @@ function GenerateFormulario() {
   const [username, setUsername] = useState("");
   const  sendData = (e) => 
     {
-      setUsername(e.target[0].value)
+      setUsername("Bienvenido " + e.target[0].value)
       e.preventDefault();
     }
 
